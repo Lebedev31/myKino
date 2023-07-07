@@ -1,0 +1,35 @@
+.filmList__item{
+    background: white;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(28, 41, 91);
+    .filmList__img{
+        width: 310px;
+        height: 400px;
+        object-fit: contain;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .filmList__descr{
+        position: relative;
+        width: 300px;
+        padding: 10px;
+        height: 400px;
+        .filmList__title{
+            text-align: left;
+            font-size: 22px;
+            height: 30px;
+        }
+
+        .filmList__info{
+            text-align: left;
+            font-size: 12px;
+        }
+    }
+
+}

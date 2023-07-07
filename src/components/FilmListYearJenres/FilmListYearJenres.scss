@@ -1,0 +1,10 @@
+.filmListYearJenres{
+    width: 100%;
+    .filmListYearJenres__grid{
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 15px;
+        grid-auto-rows: 400px;
+    }
+}

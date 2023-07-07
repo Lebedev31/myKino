@@ -1,0 +1,95 @@
+.globalSearch{
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(196, 184, 206);
+    width: 1000px;
+    z-index: 5;
+    top: 50px;
+    right: 90px;
+    input:focus{
+        outline: none;
+    }
+
+    .globalSearch__infoSearch{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            font-size: 23px;
+        }
+
+        .globalSearch__button{
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            cursor: pointer; 
+            border-radius: 4px; 
+            transform: translateX(10px);
+        }
+        .globalSearch__button:hover {
+            background-color: #45a049; /* Изменяем цвет фона кнопки при наведении */
+          }
+          
+    
+        .globalSearch__infoYear{
+            width: 550px;
+            .globalSearch__input{
+                width: 200px;
+                height: 20px;
+            }
+           
+            .globalSearch__input:nth-child(2){
+                margin-right: 10px;
+            }
+        }
+
+        .globalSearch__persons{
+            width: 350px;
+            input{
+                height: 20px;
+                width: 250px;
+            }
+        }
+    }
+   
+
+    .globalSearch__title{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 35px;
+    }
+
+    .globalSearch__jenres{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       .globalSearch__block {
+            list-style: none;
+            padding: 0;
+            .globalSearch__item{
+                margin-bottom: 15px;
+                font-size: 18px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+
+            .globalSearch__item:hover{
+                color:#3e8e41;
+            }
+          }
+    }
+   
+}
+
+.inputPlaceholder-error::placeholder{
+   color: red;
+}
+
+.inputPlaceholder::placeholder{
+    color: rgb(58, 55, 55);
+ }
+
